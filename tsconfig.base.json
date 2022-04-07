@@ -1,0 +1,24 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@sv-connect/web-accounts": ["apps/web-accounts/src/exposes"],
+      "@sv-connect/web-auth": ["apps/web-auth/src/exposes"],
+      "@sv-connect/web-ui": ["apps/web-ui/src/exposes"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

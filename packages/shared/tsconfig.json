@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "removeComments": true,
+    "declarationDir": "./dist/types",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "baseUrl": "."
+  },
+  "include": ["src"],
+  "exclude": ["dist", "node_modules", ".turbo"]
+}
