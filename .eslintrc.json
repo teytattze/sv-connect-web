@@ -39,6 +39,7 @@
     "no-param-reassign": "off",
     "no-shadow": "off",
     "no-use-before-define": "off",
+    "prefer-destructuring": "off",
     "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
     "react/react-in-jsx-scope": "off",
     "react/require-default-props": "off",

@@ -1,0 +1,1 @@
+{"version":3,"file":"auth.provider.d.ts","sourceRoot":"","sources":["../../../apps/web-auth/src/providers/auth.provider.tsx"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,OAAO,CAAC;AAIlC,UAAU,kBAAkB;IAC1B,QAAQ,EAAE,SAAS,CAAC;CACrB;AAED,wBAAgB,YAAY,CAAC,EAAE,QAAQ,EAAE,EAAE,kBAAkB,eAG5D"}

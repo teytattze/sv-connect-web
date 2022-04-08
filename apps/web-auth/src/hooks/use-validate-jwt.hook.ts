@@ -1,6 +1,6 @@
 import { IAccount, ICoreHttpResponse } from '@sv-connect/shared';
-import { validateJwt } from '@sv-connect/services';
 import { UseMutationOptions, useMutation } from 'react-query';
+import { validateJwt } from '../services/auth.service';
 
 export function useValidateJwt(
   options?: Omit<

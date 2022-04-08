@@ -4,21 +4,23 @@
   "private": true,
   "workspaces": [
     "apps/*",
-    "packages/*"
+    "packages/*",
+    "types/*"
   ],
   "scripts": {
     "build": "turbo run build",
-    "build:packages": "turbo run build --scope=@sv-connect/shared --no-deps && turbo run build --scope=@sv-connect/services --no-deps",
+    "build:packages": "turbo run build --scope=@sv-connect/shared --no-deps",
     "dev": "turbo run dev --parallel",
+    "generate": "turbo run generate --parallel --no-deps",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.5.1",
     "@mui/lab": "^5.0.0-alpha.76",
     "@mui/material": "^5.5.3",
-    "@mui/icons-material": "^5.5.1",
     "notistack": "^2.0.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -28,8 +30,11 @@
     "react-scripts": "^5.0.0"
   },
   "devDependencies": {
-    "@sv-connect/services": "*",
+    "@craco/craco": "^6.4.3",
     "@sv-connect/shared": "*",
+    "@sv-connect/web-accounts": "*",
+    "@sv-connect/web-auth": "*",
+    "@sv-connect/web-ui": "*",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -37,20 +42,21 @@
     "@types/node": "^16.11.21",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
-    "@craco/craco": "^6.4.3",
     "@typescript-eslint/eslint-plugin": "^5.10.2",
     "@typescript-eslint/parser": "^5.10.2",
     "eslint": "^8.8.0",
     "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-typescript": "^2.5.0",
-    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "prettier": "^2.5.1",
+    "prettier": "^2.6.2",
+    "turbo": "latest",
     "typescript": "^4.6.3",
-    "turbo": "latest"
+    "webpack": "^5.72.0"
   },
   "engines": {
     "npm": ">=7.0.0",

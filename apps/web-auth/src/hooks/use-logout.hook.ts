@@ -1,6 +1,6 @@
 import { ICoreHttpResponse } from '@sv-connect/shared';
-import { logout } from '@sv-connect/services';
 import { useMutation, UseMutationOptions } from 'react-query';
+import { logout } from '../services/auth.service';
 
 export function useLogout(
   options?: Omit<

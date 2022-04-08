@@ -13,12 +13,9 @@
     "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
+    "typeRoots": ["./node_modules/@types", "./types"],
     "baseUrl": ".",
-    "paths": {
-      "@sv-connect/web-accounts": ["apps/web-accounts/src/exposes"],
-      "@sv-connect/web-auth": ["apps/web-auth/src/exposes"],
-      "@sv-connect/web-ui": ["apps/web-ui/src/exposes"]
-    }
+    "paths": {}
   },
   "exclude": ["node_modules", "tmp"]
 }

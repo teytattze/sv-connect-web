@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "../../types/web-accounts",
+    "outDir": "../../types/web-accounts",
+    "rootDir": "./src"
+  },
+  "include": ["src"]
+}

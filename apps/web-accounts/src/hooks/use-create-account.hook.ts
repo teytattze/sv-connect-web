@@ -1,10 +1,10 @@
-import { createAccount } from '@sv-connect/services';
 import {
   IAccount,
   ICoreHttpResponse,
   ICreateAccountPayload,
 } from '@sv-connect/shared';
 import { useMutation, UseMutationOptions } from 'react-query';
+import { createAccount } from '../services/accounts.service';
 
 export function useCreateAccount(
   options?: Omit<

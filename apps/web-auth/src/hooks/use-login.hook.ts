@@ -1,6 +1,6 @@
 import { IAccount, ICoreHttpResponse, ILoginPayload } from '@sv-connect/shared';
-import { login } from '@sv-connect/services';
 import { useMutation, UseMutationOptions } from 'react-query';
+import { login } from '../services/auth.service';
 
 export function useLogin(
   options?: Omit<

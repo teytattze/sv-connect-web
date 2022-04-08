@@ -1,0 +1,11 @@
+{
+  "name": "@sv-connect/web-ui",
+  "version": "1.0.0",
+  "main": "",
+  "author": "tattzetey",
+  "license": "MIT",
+  "types": "exposes/index.d.ts",
+  "exports": {
+    ".": "./exposes/index.d.ts"
+  }
+}

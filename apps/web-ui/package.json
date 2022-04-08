@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "PORT=3100 craco start",
     "build": "craco build",
+    "generate": "tsc --project ./tsconfig.build.json",
     "test": "craco test",
     "lint": "eslint \"src/**/*.{ts,tsx}\" --fix",
     "eject": "react-scripts eject"

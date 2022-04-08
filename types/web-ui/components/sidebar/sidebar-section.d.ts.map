@@ -1,0 +1,1 @@
+{"version":3,"file":"sidebar-section.d.ts","sourceRoot":"","sources":["../../../../apps/web-ui/src/components/sidebar/sidebar-section.tsx"],"names":[],"mappings":";AACA,OAAO,EAAE,MAAM,EAAE,MAAM,mCAAmC,CAAC;AAM3D,MAAM,WAAW,mBAAmB;IAClC,KAAK,EAAE,MAAM,CAAC;CACf;AAED,wBAAgB,cAAc,CAAC,EAAE,KAAK,EAAE,EAAE,mBAAmB,eA8B5D;AAED,wBAAgB,sBAAsB,CAAC,EAAE,KAAK,EAAE,EAAE,mBAAmB,eA8BpE"}

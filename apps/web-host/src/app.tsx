@@ -1,5 +1,5 @@
 import { RegisterPage } from '@sv-connect/web-accounts';
-import { AuthGuard, AuthProvider, LoginPage } from '@sv-connect/web-auth';
+import { AuthProvider, LoginPage } from '@sv-connect/web-auth';
 import {
   CssBaseline,
   SnackbarProvider,

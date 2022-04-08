@@ -10,17 +10,13 @@ import {
 } from '@mui/material';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { FormTitle, LoadingWrapper } from '@sv-connect/web-ui';
+import { ICreateAccountPayload } from '@sv-connect/shared';
 import { useState } from 'react';
 import { useSnackbar } from 'notistack';
 import { Controller, useForm } from 'react-hook-form';
 import { Link as RouterLink } from 'react-router-dom';
 import { registerValidation, registerValue } from '../lib/register-form.lib';
 import { useCreateAccount } from '../hooks/use-create-account.hook';
-
-interface ICreateAccountPayload {
-  email: string;
-  password: string;
-}
 
 export function RegisterForm() {
   const [errorMsg, setErrorMsg] = useState<string>('');
