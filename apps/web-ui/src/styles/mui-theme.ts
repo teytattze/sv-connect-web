@@ -92,5 +92,13 @@ export const muiTheme = createTheme({
         },
       },
     },
+    MuiTableCell: {
+      styleOverrides: {
+        stickyHeader: {
+          backgroundColor: '#fff',
+          borderBottom: '1px solid #eee',
+        },
+      },
+    },
   },
 });

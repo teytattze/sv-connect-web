@@ -1,0 +1,1 @@
+{"version":3,"file":"page-container.d.ts","sourceRoot":"","sources":["../../../apps/web-ui/src/components/page-container.tsx"],"names":[],"mappings":"AACA,OAAO,EAAE,SAAS,EAAE,MAAM,OAAO,CAAC;AAElC,MAAM,WAAW,mBAAmB;IAClC,KAAK,EAAE,MAAM,CAAC;IACd,QAAQ,EAAE,SAAS,CAAC;CACrB;AAED,wBAAgB,aAAa,CAAC,EAAE,KAAK,EAAE,QAAQ,EAAE,EAAE,mBAAmB,eAiBrE"}

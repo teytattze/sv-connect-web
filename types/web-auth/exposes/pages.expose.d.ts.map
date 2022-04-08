@@ -1,1 +1,1 @@
-{"version":3,"file":"pages.expose.d.ts","sourceRoot":"","sources":["../../../apps/web-auth/src/exposes/pages.expose.tsx"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,qBAAqB,CAAC"}
+{"version":3,"file":"pages.expose.d.ts","sourceRoot":"","sources":["../../../apps/web-auth/src/exposes/pages.expose.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,qBAAqB,CAAC"}

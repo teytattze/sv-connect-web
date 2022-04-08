@@ -1,0 +1,10 @@
+{
+  "name": "@sv-connect/web-profiles",
+  "version": "1.0.0",
+  "author": "tattzetey",
+  "license": "MIT",
+  "types": "exposes/index.d.ts",
+  "exports": {
+    ".": "./exposes/index.d.ts"
+  }
+}

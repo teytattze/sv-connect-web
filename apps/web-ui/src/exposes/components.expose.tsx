@@ -13,3 +13,6 @@ export type { LoadingWrapperProps } from '../components/loading-wrapper';
 
 export { FormTitle } from '../components/form-title';
 export type { FormTitleProps } from '../components/form-title';
+
+export { PageContainer } from '../components/page-container';
+export type { IPageContainerProps } from '../components/page-container';

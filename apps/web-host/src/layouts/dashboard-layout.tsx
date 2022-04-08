@@ -52,9 +52,7 @@ export function DashboardLayout() {
       >
         <Navbar title="Helo" handleToggle={handleSidebarToggle} />
         <Box component="main">
-          <Box sx={{ px: 2 }}>
-            <Outlet />
-          </Box>
+          <Outlet />
         </Box>
       </Box>
     </>

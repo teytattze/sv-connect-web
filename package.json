@@ -18,6 +18,7 @@
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
+    "@fontsource/roboto": "^4.5.5",
     "@mui/icons-material": "^5.5.1",
     "@mui/lab": "^5.0.0-alpha.76",
     "@mui/material": "^5.5.3",
@@ -34,6 +35,10 @@
     "@sv-connect/shared": "*",
     "@sv-connect/web-accounts": "*",
     "@sv-connect/web-auth": "*",
+    "@sv-connect/web-profiles": "*",
+    "@sv-connect/web-projects": "*",
+    "@sv-connect/web-students": "*",
+    "@sv-connect/web-supervisors": "*",
     "@sv-connect/web-ui": "*",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",

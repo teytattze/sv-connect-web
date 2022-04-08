@@ -1,0 +1,1 @@
+const API_PROJECTS_BASE_URL = process.env.API_PROJECTS_BASE_URL;

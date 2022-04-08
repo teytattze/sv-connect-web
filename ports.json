@@ -1,0 +1,10 @@
+{
+  "ui": 3100,
+  "host": 3000,
+  "accounts": 3001,
+  "auth": 3002,
+  "projects": 3003,
+  "students": 3004,
+  "supervisors": 3005,
+  "profiles": 3006
+}

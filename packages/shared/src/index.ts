@@ -10,6 +10,24 @@ export type {
 
 export type { ILoginPayload } from './interfaces/auth.interface';
 
+export type { IBaseField, IField } from './interfaces/fields.interface';
+
+export type { IBaseProfile, IProfile } from './interfaces/profiles.interface';
+
+export type { IBaseProject, IProject } from './interfaces/projects.interface';
+
+export type {
+  IBaseSpecialization,
+  ISpecialization,
+} from './interfaces/specializations.interface';
+
+export type { IBaseStudent, IStudent } from './interfaces/students.interface';
+
+export type {
+  IBaseSupervisor,
+  ISupervisor,
+} from './interfaces/supervisors.interface';
+
 export type { ICoreHttpResponse } from './interfaces/http-response.interface';
 
 export type { Nullable, Optional } from './types/common.type';

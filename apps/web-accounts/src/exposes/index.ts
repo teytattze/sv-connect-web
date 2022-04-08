@@ -1,3 +1,3 @@
 export { useCreateAccount } from './hooks.expose';
 
-export { RegisterPage } from './pages.expose';
+export { AccountsListPage, RegisterPage } from './pages.expose';

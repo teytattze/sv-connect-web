@@ -7,12 +7,17 @@ importers:
       '@craco/craco': ^6.4.3
       '@emotion/react': ^11.8.2
       '@emotion/styled': ^11.8.1
+      '@fontsource/roboto': ^4.5.5
       '@mui/icons-material': ^5.5.1
       '@mui/lab': ^5.0.0-alpha.76
       '@mui/material': ^5.5.3
       '@sv-connect/shared': '*'
       '@sv-connect/web-accounts': '*'
       '@sv-connect/web-auth': '*'
+      '@sv-connect/web-profiles': '*'
+      '@sv-connect/web-projects': '*'
+      '@sv-connect/web-students': '*'
+      '@sv-connect/web-supervisors': '*'
       '@sv-connect/web-ui': '*'
       '@testing-library/jest-dom': ^5.16.1
       '@testing-library/react': ^12.1.2
@@ -46,6 +51,7 @@ importers:
     dependencies:
       '@emotion/react': 11.9.0_3adb690023d1157f64abd5db2f6a6306
       '@emotion/styled': 11.8.1_b0ba3e78c9846f3e9386df0ea5562268
+      '@fontsource/roboto': 4.5.5
       '@mui/icons-material': 5.6.0_56159a278a9db14fc634628e3693a7e7
       '@mui/lab': 5.0.0-alpha.76_d7b33bad171b94ea2e432463e0d32da3
       '@mui/material': 5.6.0_9f8baed66f4fea63f3ecdc0244b5824e
@@ -61,6 +67,10 @@ importers:
       '@sv-connect/shared': link:packages/shared
       '@sv-connect/web-accounts': link:types/web-accounts
       '@sv-connect/web-auth': link:types/web-auth
+      '@sv-connect/web-profiles': link:types/web-profiles
+      '@sv-connect/web-projects': link:types/web-projects
+      '@sv-connect/web-students': link:types/web-students
+      '@sv-connect/web-supervisors': link:types/web-supervisors
       '@sv-connect/web-ui': link:types/web-ui
       '@testing-library/jest-dom': 5.16.4
       '@testing-library/react': 12.1.4_react-dom@18.0.0+react@18.0.0
@@ -94,6 +104,15 @@ importers:
   apps/web-host:
     specifiers: {}
 
+  apps/web-projects:
+    specifiers: {}
+
+  apps/web-students:
+    specifiers: {}
+
+  apps/web-supervisors:
+    specifiers: {}
+
   apps/web-ui:
     specifiers: {}
 
@@ -104,6 +123,15 @@ importers:
     specifiers: {}
 
   types/web-auth:
+    specifiers: {}
+
+  types/web-projects:
+    specifiers: {}
+
+  types/web-students:
+    specifiers: {}
+
+  types/web-supervisors:
     specifiers: {}
 
   types/web-ui:
@@ -1782,6 +1810,10 @@ packages:
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
+
+  /@fontsource/roboto/4.5.5:
+    resolution: {integrity: sha512-Pe1p+gAO6K0aLxBXlLoJRHVx352tVc/v/7DOnvM3t+FYXb+KUga9aCD1NpnDfd0kKnWXqrZyAXguyyFWDDuphw==}
+    dev: false
 
   /@humanwhocodes/config-array/0.9.5:
     resolution: {integrity: sha512-ObyMyWxZiCu/yTisA7uzx81s40xR2fD5Cg/2Kq7G02ajkNubJf6BopgDTmDyc3U7sXpNKM8cYOw7s7Tyr+DnCw==}

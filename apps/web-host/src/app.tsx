@@ -1,4 +1,4 @@
-import { RegisterPage } from '@sv-connect/web-accounts';
+import { AccountsListPage, RegisterPage } from '@sv-connect/web-accounts';
 import { AuthProvider, LoginPage } from '@sv-connect/web-auth';
 import {
   CssBaseline,
@@ -11,6 +11,10 @@ import { ReactQueryDevtools } from 'react-query/devtools';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { DashboardLayout } from './layouts/dashboard-layout';
 import { DefaultLayout } from './layouts/default-layout';
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
 
 const queryClient = new QueryClient();
 
@@ -30,7 +34,7 @@ export function App() {
                   <Route path="register" element={<RegisterPage />} />
                 </Route>
                 <Route path="/dashboard" element={<DashboardLayout />}>
-                  <Route index element={<h2>This is dashboard</h2>} />
+                  <Route index element={<AccountsListPage />} />
                 </Route>
               </Routes>
             </AuthProvider>
