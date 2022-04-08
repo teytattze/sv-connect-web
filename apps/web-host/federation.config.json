@@ -3,7 +3,10 @@
   "remotes": {
     "@sv-connect/web-accounts": "accounts@http://localhost:3001/remoteEntry.js",
     "@sv-connect/web-auth": "auth@http://localhost:3002/remoteEntry.js",
-    "@sv-connect/web-shared": "shared@http://localhost:3101/remoteEntry.js",
+    "@sv-connect/web-projects": "projects@http://localhost:3003/remoteEntry.js",
+    "@sv-connect/web-students": "students@http://localhost:3004/remoteEntry.js",
+    "@sv-connect/web-supervisors": "supervisors@http://localhost:3005/remoteEntry.js",
+    "@sv-connect/web-profiles": "profiles@http://localhost:3006/remoteEntry.js",
     "@sv-connect/web-ui": "ui@http://localhost:3100/remoteEntry.js"
   },
   "exposes": {}

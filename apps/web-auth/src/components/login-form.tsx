@@ -12,7 +12,7 @@ import {
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { ILoginPayload } from '@sv-connect/shared';
 import { FormTitle, LoadingWrapper } from '@sv-connect/web-ui';
-// import { useSnackbar } from 'notistack';
+import { useSnackbar } from 'notistack';
 import { useState } from 'react';
 import { Link as RouterLink, useNavigate } from 'react-router-dom';
 import { Controller, useForm } from 'react-hook-form';
@@ -22,7 +22,7 @@ import { useLogin } from '../hooks/use-login.hook';
 export function LoginForm() {
   const [errorMsg, setErrorMsg] = useState<string>('');
 
-  // const { enqueueSnackbar } = useSnackbar();
+  const { enqueueSnackbar } = useSnackbar();
 
   const navigate = useNavigate();
 
@@ -38,7 +38,7 @@ export function LoginForm() {
     },
     onSuccess: (res) => {
       if (res.statusCode === 200) {
-        // enqueueSnackbar('Login successfully', { variant: 'success' });
+        enqueueSnackbar('Login successfully', { variant: 'success' });
         navigate('/dashboard');
       } else {
         setErrorMsg(res.message);

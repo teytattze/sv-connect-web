@@ -14,3 +14,11 @@ export interface IProject extends Omit<IBaseProject, 'fieldId'> {
   field: IBaseField;
   specializations: IBaseSpecialization[];
 }
+
+export interface ICreateProjectPayload {
+  title: string;
+  summary: string;
+  field: { id: string };
+  specializations: { id: string }[];
+  student: { id: string };
+}

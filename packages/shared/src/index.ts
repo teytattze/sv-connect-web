@@ -12,9 +12,17 @@ export type { ILoginPayload } from './interfaces/auth.interface';
 
 export type { IBaseField, IField } from './interfaces/fields.interface';
 
-export type { IBaseProfile, IProfile } from './interfaces/profiles.interface';
+export type {
+  IBaseProfile,
+  ICreateProfilePayload,
+  IProfile,
+} from './interfaces/profiles.interface';
 
-export type { IBaseProject, IProject } from './interfaces/projects.interface';
+export type {
+  IBaseProject,
+  ICreateProjectPayload,
+  IProject,
+} from './interfaces/projects.interface';
 
 export type {
   IBaseSpecialization,

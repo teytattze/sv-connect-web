@@ -6,6 +6,7 @@ import {
   ThemeProvider,
   muiTheme,
 } from '@sv-connect/web-ui';
+import { CreateProjectPage } from '@sv-connect/web-projects';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { ReactQueryDevtools } from 'react-query/devtools';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -33,8 +34,12 @@ export function App() {
                   <Route path="login" element={<LoginPage />} />
                   <Route path="register" element={<RegisterPage />} />
                 </Route>
-                <Route path="/dashboard" element={<DashboardLayout />}>
-                  <Route index element={<AccountsListPage />} />
+                <Route path="dashboard" element={<DashboardLayout />}>
+                  <Route index element={<CreateProjectPage />} />
+                  <Route
+                    path="create-project"
+                    element={<CreateProjectPage />}
+                  />
                 </Route>
               </Routes>
             </AuthProvider>

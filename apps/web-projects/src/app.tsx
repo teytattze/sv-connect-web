@@ -1,3 +1,3 @@
 export function App() {
-  return <div>Web Auth</div>;
+  return <div>Web Projects</div>;
 }

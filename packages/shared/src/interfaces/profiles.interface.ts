@@ -12,3 +12,13 @@ export interface IBaseProfile extends IBaseDomainEntity {
 }
 
 export interface IProfile extends IBaseProfile {}
+
+export interface ICreateProfilePayload {
+  firstName: string;
+  lastName: string;
+  headline?: Nullable<string>;
+  summary?: Nullable<string>;
+  pictureUrl?: Nullable<string>;
+  backgroundUrl?: Nullable<string>;
+  account: { id: string };
+}
