@@ -1,0 +1,1 @@
+{"version":3,"file":"dashboard-page-container.d.ts","sourceRoot":"","sources":["../../../apps/web-ui/src/components/dashboard-page-container.tsx"],"names":[],"mappings":"AACA,OAAO,EAAE,SAAS,EAAE,MAAM,OAAO,CAAC;AAElC,MAAM,WAAW,4BAA4B;IAC3C,KAAK,EAAE,MAAM,CAAC;IACd,QAAQ,EAAE,SAAS,CAAC;CACrB;AAED,wBAAgB,sBAAsB,CAAC,EACrC,KAAK,EACL,QAAQ,GACT,EAAE,4BAA4B,eAiB9B"}

@@ -2,7 +2,7 @@ export {
   FormTitle,
   LoadingWrapper,
   Navbar,
-  PageContainer,
+  DashboardPageContainer,
   Sidebar,
   SidebarSection,
   SidebarSectionButton,
@@ -10,7 +10,7 @@ export {
 } from './components.expose';
 export type {
   FormTitleProps,
-  IPageContainerProps,
+  IDashboardPageContainerProps,
   LoadingWrapperProps,
   NavbarProps,
 } from './components.expose';

@@ -1,5 +1,5 @@
-export { FormTitle, LoadingWrapper, Navbar, PageContainer, Sidebar, SidebarSection, SidebarSectionButton, SidebarType, } from './components.expose';
-export type { FormTitleProps, IPageContainerProps, LoadingWrapperProps, NavbarProps, } from './components.expose';
+export { FormTitle, LoadingWrapper, Navbar, DashboardPageContainer, Sidebar, SidebarSection, SidebarSectionButton, SidebarType, } from './components.expose';
+export type { FormTitleProps, IDashboardPageContainerProps, LoadingWrapperProps, NavbarProps, } from './components.expose';
 export { SnackbarProvider, ThemeProvider } from './providers.expose';
 export { CssBaseline, muiTheme } from './styles.expose';
 //# sourceMappingURL=index.d.ts.map

@@ -36,12 +36,12 @@ export function LoginForm() {
     onError: () => {
       setErrorMsg('There is something unexpected happened');
     },
-    onSuccess: (res) => {
-      if (res.statusCode === 200) {
+    onSuccess: ({ statusCode, message }) => {
+      if (statusCode === 200) {
         enqueueSnackbar('Login successfully', { variant: 'success' });
         navigate('/dashboard');
       } else {
-        setErrorMsg(res.message);
+        setErrorMsg(message);
       }
     },
   });

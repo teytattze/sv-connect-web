@@ -1,3 +1,16 @@
-import { ICreateProjectPayload } from '@sv-connect/shared';
-export declare const createProjectValue: ICreateProjectPayload;
+export interface ICreateProjectForm {
+    title: string;
+    summary: string;
+    fieldId: string;
+    specializationIds: string[];
+    studentId: string;
+}
+export interface IUpdateProjectForm {
+    title: string;
+    summary: string;
+    fieldId: string;
+    specializationIds: string[];
+    studentId: string;
+}
+export declare const createProjectValue: ICreateProjectForm;
 //# sourceMappingURL=projects-form.lib.d.ts.map

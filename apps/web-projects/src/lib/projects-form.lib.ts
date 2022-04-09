@@ -6,6 +6,14 @@ export interface ICreateProjectForm {
   studentId: string;
 }
 
+export interface IUpdateProjectForm {
+  title: string;
+  summary: string;
+  fieldId: string;
+  specializationIds: string[];
+  studentId: string;
+}
+
 export const createProjectValue: ICreateProjectForm = {
   title: '',
   summary: '',

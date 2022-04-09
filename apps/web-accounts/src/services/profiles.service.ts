@@ -1,6 +1,6 @@
 import { ICoreHttpResponse, IProfile } from '@sv-connect/shared';
 
-const API_PROFILES_BASE_URL = process.env.REACT_APP_API_PROFILES_BASE_URL;
+const API_PROFILES_BASE_URL = 'http://localhost:8000/api/profiles';
 
 export const getProfileByAccountId = async (
   accountId: string,

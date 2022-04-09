@@ -1,1 +1,0 @@
-const API_STUDENTS_BASE_URL = process.env.API_STUDENTS_BASE_URL;

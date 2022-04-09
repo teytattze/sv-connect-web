@@ -32,21 +32,19 @@
   },
   "devDependencies": {
     "@craco/craco": "^6.4.3",
-    "@sv-connect/shared": "*",
-    "@sv-connect/web-accounts": "*",
-    "@sv-connect/web-auth": "*",
-    "@sv-connect/web-profiles": "*",
-    "@sv-connect/web-projects": "*",
-    "@sv-connect/web-students": "*",
-    "@sv-connect/web-supervisors": "*",
-    "@sv-connect/web-ui": "*",
+    "@sv-connect/shared": "file:./packages/shared",
+    "@sv-connect/web-accounts": "file:./types/web-accounts",
+    "@sv-connect/web-auth": "file:./types/web-auth",
+    "@sv-connect/web-profiles": "file:./types/web-profiles",
+    "@sv-connect/web-projects": "file:./types/web-projects",
+    "@sv-connect/web-ui": "file:./types/web-ui",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.4.0",
     "@types/node": "^16.11.21",
-    "@types/react": "^17.0.38",
-    "@types/react-dom": "^17.0.11",
+    "@types/react": "^18.0.1",
+    "@types/react-dom": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.10.2",
     "@typescript-eslint/parser": "^5.10.2",
     "eslint": "^8.8.0",
@@ -67,5 +65,5 @@
     "npm": ">=7.0.0",
     "node": ">=14.0.0"
   },
-  "packageManager": "pnpm@6.32.4"
+  "packageManager": "yarn@1.22.17"
 }

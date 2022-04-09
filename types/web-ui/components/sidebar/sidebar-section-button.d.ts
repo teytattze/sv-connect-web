@@ -1,4 +1,3 @@
-/// <reference types="react" />
 import { IPath } from '../../interfaces/routes.interface';
 export interface SidebarSectionButtonProps {
     path: IPath;

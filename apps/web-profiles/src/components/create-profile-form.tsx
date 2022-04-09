@@ -1,9 +1,9 @@
+import { LoadingButton } from '@mui/lab';
 import { Alert, Box, Paper, Stack, TextField } from '@mui/material';
 import { FormTitle } from '@sv-connect/web-ui';
 import { ICreateProfilePayload } from '@sv-connect/shared';
 import { Controller, useForm } from 'react-hook-form';
 import { useState } from 'react';
-import { LoadingButton } from '.pnpm/@mui+lab@5.0.0-alpha.76_d7b33bad171b94ea2e432463e0d32da3/node_modules/@mui/lab';
 import { createProfileValue } from '../lib/profiles-form.lib';
 import { useCreateProfile } from '../hooks/use-create-profile.hook';
 
@@ -87,6 +87,8 @@ export function CreateProfileForm() {
                   id="summary"
                   label="Summary"
                   variant="outlined"
+                  multiline
+                  rows={4}
                   helperText={formErrors.summary?.message}
                   error={!!formErrors.summary}
                 />

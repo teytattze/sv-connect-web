@@ -1,4 +1,3 @@
-/// <reference types="react" />
 import { IRoute } from '../../interfaces/routes.interface';
 export interface SidebarSectionProps {
     route: IRoute;

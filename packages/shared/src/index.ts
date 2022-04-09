@@ -8,7 +8,10 @@ export type {
   ICreateAccountPayload,
 } from './interfaces/accounts.interface';
 
-export type { ILoginPayload } from './interfaces/auth.interface';
+export type {
+  ILoginPayload,
+  IRegisterPayload,
+} from './interfaces/auth.interface';
 
 export type { IBaseField, IField } from './interfaces/fields.interface';
 
@@ -21,6 +24,7 @@ export type {
 export type {
   IBaseProject,
   ICreateProjectPayload,
+  IUpdateProjectPayload,
   IProject,
 } from './interfaces/projects.interface';
 

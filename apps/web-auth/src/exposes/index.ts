@@ -4,4 +4,4 @@ export { useAuth, useLogout } from './hooks.expose';
 
 export { AuthProvider } from './providers.expose';
 
-export { LoginPage } from './pages.expose';
+export { LoginPage, RegisterPage } from './pages.expose';

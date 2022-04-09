@@ -3,9 +3,27 @@ import {
   IAccount,
   ICoreHttpResponse,
   ILoginPayload,
+  IRegisterPayload,
 } from '@sv-connect/shared';
 
 const API_AUTH_BASE_URL = process.env.REACT_APP_API_AUTH_BASE_URL;
+
+export const register = async ({
+  firstName,
+  lastName,
+  email,
+  password,
+  role,
+}: IRegisterPayload): Promise<ICoreHttpResponse<IAccount>> => {
+  const response = await fetch(`${API_AUTH_BASE_URL}/register`, {
+    method: HttpRequestMethod.POST,
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ firstName, lastName, email, password, role }),
+    credentials: 'include',
+  });
+  const result = await response.json();
+  return result;
+};
 
 export const login = async ({
   email,
